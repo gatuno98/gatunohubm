@@ -286,7 +286,7 @@ UICorner_12.Parent = ImageButton
 
 -- Scripts:
 
-local function YLBTOO_fake_script() -- TextButton.LocalScript 
+local function XDEP_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- Script para botão que alterna cor ao clicar
@@ -314,8 +314,8 @@ local function YLBTOO_fake_script() -- TextButton.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(YLBTOO_fake_script)()
-local function XIAQWVJ_fake_script() -- TextButton.esp 
+coroutine.wrap(XDEP_fake_script)()
+local function DZQJDNH_fake_script() -- TextButton.esp 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- ESP Script para Murder Mystery 2
@@ -515,8 +515,8 @@ local function XIAQWVJ_fake_script() -- TextButton.esp
 	
 	print("✅ ESP Murder Mystery 2 configurado! Clique no botão para ativar/desativar.")
 end
-coroutine.wrap(XIAQWVJ_fake_script)()
-local function ZZYIVQF_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(DZQJDNH_fake_script)()
+local function HINSUYK_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	-- Script para botão que alterna cor ao clicar
@@ -544,8 +544,8 @@ local function ZZYIVQF_fake_script() -- TextButton_2.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(ZZYIVQF_fake_script)()
-local function EHJZG_fake_script() -- TextButton_2.esp-arma 
+coroutine.wrap(HINSUYK_fake_script)()
+local function COHQAH_fake_script() -- TextButton_2.esp-arma 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	-- ESP Script para Armas Dropadas - Murder Mystery 2
@@ -761,8 +761,8 @@ local function EHJZG_fake_script() -- TextButton_2.esp-arma
 	
 	print("✅ ESP de Armas Dropadas configurado! Clique no botão para ativar/desativar.")
 end
-coroutine.wrap(EHJZG_fake_script)()
-local function XVPT_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(COHQAH_fake_script)()
+local function TBKQQZ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	-- Script para botão que alterna cor ao clicar
@@ -790,8 +790,8 @@ local function XVPT_fake_script() -- TextButton_3.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(XVPT_fake_script)()
-local function RCZSFKC_fake_script() -- TextButton_3.tp-arma 
+coroutine.wrap(TBKQQZ_fake_script)()
+local function DZQZST_fake_script() -- TextButton_3.tp-arma 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	-- Script de Teleport para Armas Dropadas - Murder Mystery 2
@@ -1041,8 +1041,8 @@ local function RCZSFKC_fake_script() -- TextButton_3.tp-arma
 	print("✅ Teleport para Armas Dropadas configurado!")
 	print("🎯 Clique no botão para ativar/desativar")
 end
-coroutine.wrap(RCZSFKC_fake_script)()
-local function OIVF_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(DZQZST_fake_script)()
+local function ZVZMD_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1070,8 +1070,8 @@ local function OIVF_fake_script() -- TextButton_4.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(OIVF_fake_script)()
-local function GICYKGF_fake_script() -- TextButton_4.aimbot 
+coroutine.wrap(ZVZMD_fake_script)()
+local function WCXGQBU_fake_script() -- TextButton_4.aimbot 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	-- Aimbot para Assassino - Murder Mystery 2
@@ -1306,8 +1306,8 @@ local function GICYKGF_fake_script() -- TextButton_4.aimbot
 	print("⚙️ FOV: " .. FOV_SIZE .. " pixels")
 	print("⚙️ Suavidade: " .. SMOOTH_FACTOR)
 end
-coroutine.wrap(GICYKGF_fake_script)()
-local function HVIA_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(WCXGQBU_fake_script)()
+local function LSIB_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1335,8 +1335,8 @@ local function HVIA_fake_script() -- TextButton_5.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(HVIA_fake_script)()
-local function ICVCZ_fake_script() -- TextButton_5.coletarmoedas 
+coroutine.wrap(LSIB_fake_script)()
+local function IMBTUMQ_fake_script() -- TextButton_5.coletarmoedas 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	-- Script Coletor de Moedas Automático - Murder Mystery 2
@@ -1558,8 +1558,8 @@ local function ICVCZ_fake_script() -- TextButton_5.coletarmoedas
 	print("   - Raio: " .. COLLECTION_DISTANCE .. " studs")
 	print("   - Delay: " .. COLLECTION_DELAY .. "s")
 end
-coroutine.wrap(ICVCZ_fake_script)()
-local function WGRD_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(IMBTUMQ_fake_script)()
+local function MIAFJS_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1587,217 +1587,53 @@ local function WGRD_fake_script() -- TextButton_6.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(WGRD_fake_script)()
-local function NLHSWYS_fake_script() -- TextButton_6.noclip 
+coroutine.wrap(MIAFJS_fake_script)()
+local function EMPLWU_fake_script() -- TextButton_6.noclip 
 	local script = Instance.new('LocalScript', TextButton_6)
 
-	-- Script Noclip de Paredes (mantém colisão com chão)
-	-- Coloque este script como LocalScript dentro do seu botão
-	
-	local button = script.Parent
+	-- Serviços
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
-	local UserInputService = game:GetService("UserInputService")
 	
+	-- Variáveis
 	local player = Players.LocalPlayer
-	local noclipEnabled = false
-	local noclipConnections = {}
-	local originalCanCollide = {}
+	local character = player.Character or player.CharacterAdded:Wait()
+	local noclipAtivo = false
 	
-	-- Função para verificar se uma parte é chão/piso
-	local function isFloor(part)
-		if not part or not part:IsA("BasePart") then
-			return false
-		end
+	-- Função para ativar/desativar noclip
+	local function toggleNoclip()
+		noclipAtivo = not noclipAtivo
 	
-		-- Verificar por nome (palavras comuns para chão)
-		local name = part.Name:lower()
-		local floorNames = {
-			"floor", "ground", "base", "platform", "piso", "chao", "terra",
-			"grass", "grama", "dirt", "sand", "areia", "concrete", "concreto"
-		}
-	
-		for _, floorName in pairs(floorNames) do
-			if name:find(floorName) then
-				return true
-			end
-		end
-	
-		-- Verificar se é uma parte horizontal grande (provavelmente chão)
-		local size = part.Size
-		if size.Y <= 4 and (size.X >= 10 or size.Z >= 10) then
-			-- Verificar se está numa posição horizontal (rotação)
-			local cf = part.CFrame
-			local upVector = cf.UpVector
-	
-			-- Se o vetor "up" está apontando para cima (Y > 0.8), é provavelmente chão
-			if math.abs(upVector.Y) > 0.8 then
-				return true
-			end
-		end
-	
-		-- Verificar material típico de chão
-		local floorMaterials = {
-			Enum.Material.Grass,
-			Enum.Material.Ground,
-			Enum.Material.Rock,
-			Enum.Material.Sand,
-			Enum.Material.Snow,
-			Enum.Material.Concrete,
-			Enum.Material.Pavement,
-			Enum.Material.Brick,
-			Enum.Material.Cobblestone
-		}
-	
-		for _, material in pairs(floorMaterials) do
-			if part.Material == material then
-				return true
-			end
-		end
-	
-		return false
-	end
-	
-	-- Função para verificar se uma parte é parede/obstáculo
-	local function isWall(part)
-		if not part or not part:IsA("BasePart") then
-			return false
-		end
-	
-		-- Se não é chão, provavelmente é parede ou obstáculo
-		return not isFloor(part)
-	end
-	
-	-- Função para salvar estados originais das partes
-	local function saveOriginalStates()
-		originalCanCollide = {}
-	
-		for _, obj in pairs(workspace:GetDescendants()) do
-			if obj:IsA("BasePart") then
-				originalCanCollide[obj] = obj.CanCollide
-			end
-		end
-	end
-	
-	-- Função para restaurar estados originais
-	local function restoreOriginalStates()
-		for part, originalState in pairs(originalCanCollide) do
-			if part and part.Parent then
-				part.CanCollide = originalState
-			end
-		end
-		originalCanCollide = {}
-	end
-	
-	-- Função para aplicar noclip nas paredes
-	local function applyWallNoclip()
-		for _, obj in pairs(workspace:GetDescendants()) do
-			if obj:IsA("BasePart") and isWall(obj) then
-				-- Desabilitar colisão apenas para paredes
-				obj.CanCollide = false
-			elseif obj:IsA("BasePart") and isFloor(obj) then
-				-- Manter colisão para o chão
-				obj.CanCollide = true
-			end
-		end
-	end
-	
-	-- Função para ativar noclip de paredes
-	local function enableWallNoclip()
-		noclipEnabled = true
-	
-		-- Salvar estados originais
-		saveOriginalStates()
-	
-		-- Aplicar noclip inicial
-		applyWallNoclip()
-	
-		-- Conexão para aplicar noclip continuamente (para novas partes)
-		noclipConnections.noclipLoop = RunService.Heartbeat:Connect(function()
-			if noclipEnabled then
-				-- Aplicar noclip em novas partes que podem ter aparecido
-				for _, obj in pairs(workspace:GetDescendants()) do
-					if obj:IsA("BasePart") then
-						if isWall(obj) and obj.CanCollide then
-							obj.CanCollide = false
-						elseif isFloor(obj) and not obj.CanCollide then
-							obj.CanCollide = true
+		if noclipAtivo then
+			RunService:BindToRenderStep("Noclip", Enum.RenderPriority.Character.Value, function()
+				local char = player.Character
+				if char then
+					for _, part in pairs(char:GetDescendants()) do
+						if part:IsA("BasePart") and part.CanCollide == true then
+							part.CanCollide = false
 						end
 					end
 				end
-			end
-		end)
-	
-		-- Conexão para novas partes adicionadas
-		noclipConnections.childAdded = workspace.DescendantAdded:Connect(function(obj)
-			if noclipEnabled and obj:IsA("BasePart") then
-				wait(0.1) -- Pequeno delay para garantir que a parte carregou
-				if isWall(obj) then
-					obj.CanCollide = false
-				elseif isFloor(obj) then
-					obj.CanCollide = true
+			end)
+		else
+			RunService:UnbindFromRenderStep("Noclip")
+			local char = player.Character
+			if char then
+				for _, part in pairs(char:GetDescendants()) do
+					if part:IsA("BasePart") then
+						part.CanCollide = true
+					end
 				end
 			end
-		end)
-	
-		print("🟢 NOCLIP DE PAREDES ATIVADO!")
-		print("🚶 Você pode atravessar paredes mas não cai pelo chão")
-		print("🏗️ Chão, plataformas e pisos mantém colisão")
-	end
-	
-	-- Função para desativar noclip
-	local function disableWallNoclip()
-		noclipEnabled = false
-	
-		-- Restaurar todos os estados originais
-		restoreOriginalStates()
-	
-		-- Desconectar todas as conexões
-		for _, connection in pairs(noclipConnections) do
-			connection:Disconnect()
-		end
-		noclipConnections = {}
-	
-		print("🔴 NOCLIP DE PAREDES DESATIVADO!")
-		print("🔧 Todas as colisões restauradas ao normal")
-	end
-	
-	-- Função principal do botão
-	local function toggleWallNoclip()
-		if noclipEnabled then
-			disableWallNoclip()
-		else
-			enableWallNoclip()
 		end
 	end
 	
-	-- Conectar ao clique do botão
-	button.MouseButton1Click:Connect(function()
-		toggleWallNoclip()
-	end)
+	-- Conectando ao botão (o script deve estar DENTRO do botão)
+	script.Parent.MouseButton1Click:Connect(toggleNoclip)
 	
-	-- Função de emergência (pressionar Ctrl+N para desativar rapidamente)
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-		if gameProcessed then return end
-	
-		if input.KeyCode == Enum.KeyCode.N and UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
-			if noclipEnabled then
-				disableWallNoclip()
-				print("🆘 Noclip desativado por tecla de emergência!")
-			end
-		end
-	end)
-	
-	print("✅ Noclip de Paredes configurado!")
-	print("🎯 Clique no botão para ativar/desativar")
-	print("🆘 Emergência: Ctrl+N para desativar rapidamente")
-	print("📋 Funcionalidades:")
-	print("   ✅ Atravessa paredes e obstáculos")
-	print("   ✅ Mantém colisão com chão/plataformas")
-	print("   ✅ Detecta automaticamente o que é chão vs parede")
 end
-coroutine.wrap(NLHSWYS_fake_script)()
-local function LINXW_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(EMPLWU_fake_script)()
+local function FFPPQS_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1825,8 +1661,8 @@ local function LINXW_fake_script() -- TextButton_7.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(LINXW_fake_script)()
-local function PWEPAVB_fake_script() -- TextButton_7.fly 
+coroutine.wrap(FFPPQS_fake_script)()
+local function GRTKY_fake_script() -- TextButton_7.fly 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	-- Serviços
@@ -1919,8 +1755,8 @@ local function PWEPAVB_fake_script() -- TextButton_7.fly
 	script.Parent.MouseButton1Click:Connect(toggleFly)
 	
 end
-coroutine.wrap(PWEPAVB_fake_script)()
-local function EBSOJA_fake_script() -- Frame.LocalScript 
+coroutine.wrap(GRTKY_fake_script)()
+local function MONB_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	-- Script de Monitoramento para seu Frame existente
@@ -2091,8 +1927,8 @@ local function EBSOJA_fake_script() -- Frame.LocalScript
 	
 	print("✅ Monitor do servidor iniciado no seu frame!")
 end
-coroutine.wrap(EBSOJA_fake_script)()
-local function LVCYMT_fake_script() -- gatunohub.LocalScript 
+coroutine.wrap(MONB_fake_script)()
+local function ESIQB_fake_script() -- gatunohub.LocalScript 
 	local script = Instance.new('LocalScript', gatunohub)
 
 	local UIS = game:GetService("UserInputService")
@@ -2136,8 +1972,8 @@ local function LVCYMT_fake_script() -- gatunohub.LocalScript
 	end)
 	
 end
-coroutine.wrap(LVCYMT_fake_script)()
-local function ORMWQ_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(ESIQB_fake_script)()
+local function KXOYQ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	-- Script para ImageButton controlar um Frame existente
@@ -2185,8 +2021,8 @@ local function ORMWQ_fake_script() -- ImageButton.LocalScript
 	
 	print("✅ ImageButton configurado para controlar frame existente!")
 end
-coroutine.wrap(ORMWQ_fake_script)()
-local function FXBZPO_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(KXOYQ_fake_script)()
+local function FSVXL_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local UIS = game:GetService("UserInputService")
@@ -2230,4 +2066,4 @@ local function FXBZPO_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(FXBZPO_fake_script)()
+coroutine.wrap(FSVXL_fake_script)()
