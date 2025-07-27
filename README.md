@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local UILibrary = Instance.new("ScreenGui")
+local uimuder = Instance.new("ScreenGui")
 local gatunohub = Instance.new("Frame")
 local TabFrame = Instance.new("Frame")
 local SideLine = Instance.new("Frame")
@@ -39,13 +39,13 @@ local UICorner_12 = Instance.new("UICorner")
 
 --Properties:
 
-UILibrary.Name = "UILibrary"
-UILibrary.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-UILibrary.DisplayOrder = 100
-UILibrary.ResetOnSpawn = false
+uimuder.Name = "ui-muder"
+uimuder.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+uimuder.DisplayOrder = 100
+uimuder.ResetOnSpawn = false
 
 gatunohub.Name = "gatunohub"
-gatunohub.Parent = UILibrary
+gatunohub.Parent = uimuder
 gatunohub.AnchorPoint = Vector2.new(0.5, 0.5)
 gatunohub.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 gatunohub.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -161,7 +161,7 @@ FixCorner.BorderSizePixel = 0
 FixCorner.Size = UDim2.new(1, 0, 0.200000003, 0)
 
 TextButton.Parent = gatunohub
-TextButton.BackgroundColor3 = Color3.fromRGB(181, 0, 3)
+TextButton.BackgroundColor3 = Color3.fromRGB(217, 0, 4)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.0114942528, 0, 0.14778325, 0)
@@ -176,7 +176,7 @@ TextButton.TextWrapped = true
 UICorner_4.Parent = TextButton
 
 TextButton_2.Parent = gatunohub
-TextButton_2.BackgroundColor3 = Color3.fromRGB(181, 0, 3)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(217, 0, 4)
 TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.BorderSizePixel = 0
 TextButton_2.Position = UDim2.new(0.0114942528, 0, 0.258620679, 0)
@@ -191,7 +191,7 @@ TextButton_2.TextWrapped = true
 UICorner_5.Parent = TextButton_2
 
 TextButton_3.Parent = gatunohub
-TextButton_3.BackgroundColor3 = Color3.fromRGB(181, 0, 3)
+TextButton_3.BackgroundColor3 = Color3.fromRGB(217, 0, 4)
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
 TextButton_3.Position = UDim2.new(0.0114942528, 0, 0.364532024, 0)
@@ -206,7 +206,7 @@ TextButton_3.TextWrapped = true
 UICorner_6.Parent = TextButton_3
 
 TextButton_4.Parent = gatunohub
-TextButton_4.BackgroundColor3 = Color3.fromRGB(181, 0, 3)
+TextButton_4.BackgroundColor3 = Color3.fromRGB(217, 0, 4)
 TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.BorderSizePixel = 0
 TextButton_4.Position = UDim2.new(0.0114942528, 0, 0.485221684, 0)
@@ -221,13 +221,13 @@ TextButton_4.TextWrapped = true
 UICorner_7.Parent = TextButton_4
 
 TextButton_5.Parent = gatunohub
-TextButton_5.BackgroundColor3 = Color3.fromRGB(181, 0, 3)
+TextButton_5.BackgroundColor3 = Color3.fromRGB(217, 0, 4)
 TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.BorderSizePixel = 0
 TextButton_5.Position = UDim2.new(0.0114942528, 0, 0.603448272, 0)
 TextButton_5.Size = UDim2.new(0, 138, 0, 29)
 TextButton_5.Font = Enum.Font.FredokaOne
-TextButton_5.Text = "coletar-moedas"
+TextButton_5.Text = "coletar doce"
 TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_5.TextScaled = true
 TextButton_5.TextSize = 14.000
@@ -236,7 +236,7 @@ TextButton_5.TextWrapped = true
 UICorner_8.Parent = TextButton_5
 
 TextButton_6.Parent = gatunohub
-TextButton_6.BackgroundColor3 = Color3.fromRGB(181, 0, 3)
+TextButton_6.BackgroundColor3 = Color3.fromRGB(217, 0, 4)
 TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.BorderSizePixel = 0
 TextButton_6.Position = UDim2.new(0.0114942528, 0, 0.706896544, 0)
@@ -251,7 +251,7 @@ TextButton_6.TextWrapped = true
 UICorner_9.Parent = TextButton_6
 
 TextButton_7.Parent = gatunohub
-TextButton_7.BackgroundColor3 = Color3.fromRGB(181, 0, 3)
+TextButton_7.BackgroundColor3 = Color3.fromRGB(217, 0, 4)
 TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.BorderSizePixel = 0
 TextButton_7.Position = UDim2.new(0.0114942528, 0, 0.820197046, 0)
@@ -274,7 +274,7 @@ Frame.Size = UDim2.new(0, 407, 0, 359)
 
 UICorner_11.Parent = Frame
 
-ImageButton.Parent = UILibrary
+ImageButton.Parent = uimuder
 ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
@@ -286,7 +286,7 @@ UICorner_12.Parent = ImageButton
 
 -- Scripts:
 
-local function XDEP_fake_script() -- TextButton.LocalScript 
+local function MYHLH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- Script para botão que alterna cor ao clicar
@@ -314,11 +314,11 @@ local function XDEP_fake_script() -- TextButton.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(XDEP_fake_script)()
-local function DZQJDNH_fake_script() -- TextButton.esp 
+coroutine.wrap(MYHLH_fake_script)()
+local function IOHURFX_fake_script() -- TextButton.esp 
 	local script = Instance.new('LocalScript', TextButton)
 
-	-- ESP Script para Murder Mystery 2
+	-- ESP Script para Murder Mystery 2 - Versão Limpa
 	-- Coloque este script como LocalScript dentro do seu botão
 	
 	local button = script.Parent
@@ -331,7 +331,7 @@ local function DZQJDNH_fake_script() -- TextButton.esp
 	local espConnections = {}
 	local espLabels = {}
 	
-	-- Função para criar ESP label
+	-- Função para criar ESP label limpo
 	local function createESPLabel(targetPlayer)
 		if not targetPlayer.Character or not targetPlayer.Character:FindFirstChild("Head") then
 			return
@@ -343,33 +343,30 @@ local function DZQJDNH_fake_script() -- TextButton.esp
 		local billboard = Instance.new("BillboardGui")
 		billboard.Name = "ESP_" .. targetPlayer.Name
 		billboard.Parent = head
-		billboard.Size = UDim2.new(0, 200, 0, 50)
-		billboard.StudsOffset = Vector3.new(0, 2, 0)
+		billboard.Size = UDim2.new(0, 150, 0, 30)
+		billboard.StudsOffset = Vector3.new(0, 2.5, 0)
 		billboard.AlwaysOnTop = true
 	
-		-- Criar TextLabel
+		-- Criar TextLabel sem fundo
 		local label = Instance.new("TextLabel")
 		label.Parent = billboard
 		label.Size = UDim2.new(1, 0, 1, 0)
-		label.BackgroundTransparency = 0.5
-		label.BackgroundColor3 = Color3.new(0, 0, 0)
-		label.BorderSizePixel = 2
+		label.BackgroundTransparency = 1 -- Totalmente transparente
+		label.BorderSizePixel = 0 -- Remove borda
 		label.TextScaled = true
-		label.Font = Enum.Font.SourceSansBold
+		label.Font = Enum.Font.GothamBold
 		label.TextStrokeTransparency = 0
-		label.TextStrokeColor3 = Color3.new(0, 0, 0)
+		label.TextStrokeColor3 = Color3.new(0, 0, 0) -- Contorno preto para legibilidade
 	
 		-- Detectar papel do jogador
 		local role = "Inocente"
 		local textColor = Color3.new(0, 1, 0) -- Verde para inocente
-		local borderColor = Color3.new(0, 1, 0)
 	
 		-- Verificar se tem arma (Xerife)
 		if targetPlayer.Backpack:FindFirstChild("Gun") or 
 			(targetPlayer.Character and targetPlayer.Character:FindFirstChild("Gun")) then
 			role = "Xerife"
-			textColor = Color3.new(0, 0, 1) -- Azul
-			borderColor = Color3.new(0, 0, 1)
+			textColor = Color3.new(0, 0.7, 1) -- Azul claro
 		end
 	
 		-- Verificar se tem faca (Assassino)
@@ -377,13 +374,11 @@ local function DZQJDNH_fake_script() -- TextButton.esp
 			(targetPlayer.Character and targetPlayer.Character:FindFirstChild("Knife")) then
 			role = "Assassino"
 			textColor = Color3.new(1, 0, 0) -- Vermelho
-			borderColor = Color3.new(1, 0, 0)
 		end
 	
-		-- Configurar texto e cores
-		label.Text = targetPlayer.Name .. "\n[" .. role .. "]"
+		-- Configurar apenas o nome com a cor do papel
+		label.Text = targetPlayer.Name .. " [" .. role .. "]"
 		label.TextColor3 = textColor
-		label.BorderColor3 = borderColor
 	
 		-- Salvar referência
 		espLabels[targetPlayer] = billboard
@@ -410,14 +405,12 @@ local function DZQJDNH_fake_script() -- TextButton.esp
 		-- Detectar papel atual
 		local role = "Inocente"
 		local textColor = Color3.new(0, 1, 0) -- Verde
-		local borderColor = Color3.new(0, 1, 0)
 	
 		-- Verificar Xerife (Gun)
 		if targetPlayer.Backpack:FindFirstChild("Gun") or 
 			(targetPlayer.Character and targetPlayer.Character:FindFirstChild("Gun")) then
 			role = "Xerife"
-			textColor = Color3.new(0, 0, 1) -- Azul
-			borderColor = Color3.new(0, 0, 1)
+			textColor = Color3.new(0, 0.7, 1) -- Azul claro
 		end
 	
 		-- Verificar Assassino (Knife)
@@ -425,13 +418,11 @@ local function DZQJDNH_fake_script() -- TextButton.esp
 			(targetPlayer.Character and targetPlayer.Character:FindFirstChild("Knife")) then
 			role = "Assassino"
 			textColor = Color3.new(1, 0, 0) -- Vermelho
-			borderColor = Color3.new(1, 0, 0)
 		end
 	
 		-- Atualizar visual
-		label.Text = targetPlayer.Name .. "\n[" .. role .. "]"
+		label.Text = targetPlayer.Name .. " [" .. role .. "]"
 		label.TextColor3 = textColor
-		label.BorderColor3 = borderColor
 	end
 	
 	-- Função para remover ESP de um jogador
@@ -515,8 +506,8 @@ local function DZQJDNH_fake_script() -- TextButton.esp
 	
 	print("✅ ESP Murder Mystery 2 configurado! Clique no botão para ativar/desativar.")
 end
-coroutine.wrap(DZQJDNH_fake_script)()
-local function HINSUYK_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(IOHURFX_fake_script)()
+local function TTJXIHK_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	-- Script para botão que alterna cor ao clicar
@@ -544,505 +535,584 @@ local function HINSUYK_fake_script() -- TextButton_2.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(HINSUYK_fake_script)()
-local function COHQAH_fake_script() -- TextButton_2.esp-arma 
+coroutine.wrap(TTJXIHK_fake_script)()
+local function WIWR_fake_script() -- TextButton_2.esp-arma 
 	local script = Instance.new('LocalScript', TextButton_2)
 
-	-- ESP Script para Armas Dropadas - Murder Mystery 2
-	-- Coloque este script como LocalScript dentro do seu botão
+	-- Murder Mystery 2 - ESP de Armas Dropadas
+	-- Script para mostrar ESP apenas de armas dropadas no chão (não com jogadores)
 	
-	local button = script.Parent
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
 	local Workspace = game:GetService("Workspace")
+	local Camera = Workspace.CurrentCamera
 	
 	local player = Players.LocalPlayer
-	local weaponESPEnabled = false
-	local weaponESPConnections = {}
-	local weaponESPLabels = {}
 	
-	-- Lista de nomes de armas do MM2
+	-- Variáveis de controle
+	local espEnabled = false
+	local espObjects = {}
+	local connection
+	
+	-- Lista de nomes de armas comuns no MM2
 	local weaponNames = {
-		"Gun", "Revolver", "Knife", "GunDrop", "KnifeDrop"
+		"knife", "gun", "revolver", "pistol", "blade", "sword", "dagger",
+		"classicknife", "classicgun", "sheriff", "murderer", "weapon"
 	}
 	
-	-- Função para verificar se é uma arma dropada
-	local function isDroppedWeapon(object)
-		-- Verifica se o nome contém palavras de armas
+	-- Função para verificar se um item é uma arma
+	local function isWeapon(item)
+		if not item or not item:IsA("Tool") then return false end
+	
+		local itemName = item.Name:lower()
+	
+		-- Verifica pelos nomes comuns de armas
 		for _, weaponName in pairs(weaponNames) do
-			if string.find(object.Name:lower(), weaponName:lower()) then
-				-- Verifica se não está no backpack ou equipado em um jogador
-				local isWithPlayer = false
-	
-				-- Verifica se está no backpack de algum jogador
-				for _, plr in pairs(Players:GetPlayers()) do
-					if plr.Backpack:FindFirstChild(object.Name) then
-						isWithPlayer = true
-						break
-					end
-					-- Verifica se está equipado no personagem
-					if plr.Character and plr.Character:FindFirstChild(object.Name) then
-						isWithPlayer = true
-						break
-					end
-				end
-	
-				-- Se não está com nenhum jogador, é uma arma dropada
-				if not isWithPlayer then
-					return true, weaponName
-				end
+			if itemName:find(weaponName) then
+				return true
 			end
 		end
-		return false, nil
-	end
 	
-	-- Função para criar ESP de arma
-	local function createWeaponESP(weapon, weaponType)
-		if not weapon:FindFirstChild("Handle") and not weapon.PrimaryPart then
-			return
+		-- Verifica se tem Handle (característico de ferramentas/armas)
+		if item:FindFirstChild("Handle") then
+			return true
 		end
 	
-		local targetPart = weapon:FindFirstChild("Handle") or weapon.PrimaryPart or weapon:FindFirstChildOfClass("Part")
-		if not targetPart then
-			return
-		end
-	
-		-- Criar BillboardGui
-		local billboard = Instance.new("BillboardGui")
-		billboard.Name = "WeaponESP_" .. weapon.Name
-		billboard.Parent = targetPart
-		billboard.Size = UDim2.new(0, 150, 0, 40)
-		billboard.StudsOffset = Vector3.new(0, 3, 0)
-		billboard.AlwaysOnTop = true
-	
-		-- Criar TextLabel
-		local label = Instance.new("TextLabel")
-		label.Parent = billboard
-		label.Size = UDim2.new(1, 0, 1, 0)
-		label.BackgroundTransparency = 0.3
-		label.BackgroundColor3 = Color3.new(0, 0, 0)
-		label.BorderSizePixel = 2
-		label.BorderColor3 = Color3.new(0, 0, 1) -- Azul
-		label.TextScaled = true
-		label.Font = Enum.Font.SourceSansBold
-		label.TextStrokeTransparency = 0
-		label.TextStrokeColor3 = Color3.new(0, 0, 0)
-		label.TextColor3 = Color3.new(0, 0, 1) -- Azul
-	
-		-- Determinar tipo de arma para o texto
-		local displayName = "Arma"
-		if string.find(weapon.Name:lower(), "gun") or string.find(weapon.Name:lower(), "revolver") then
-			displayName = "🔫 Gun"
-		elseif string.find(weapon.Name:lower(), "knife") then
-			displayName = "🔪 Knife"
-		end
-	
-		label.Text = displayName .. "\n[Dropada]"
-	
-		-- Criar highlight para maior visibilidade
-		local highlight = Instance.new("SelectionBox")
-		highlight.Parent = targetPart
-		highlight.Adornee = targetPart
-		highlight.Color3 = Color3.new(0, 0, 1) -- Azul
-		highlight.LineThickness = 0.2
-		highlight.Transparency = 0.5
-	
-		-- Salvar referências
-		weaponESPLabels[weapon] = {
-			billboard = billboard,
-			highlight = highlight
-		}
-	
-		print("🔵 ESP criado para arma: " .. weapon.Name)
-	end
-	
-	-- Função para remover ESP de arma
-	local function removeWeaponESP(weapon)
-		if weaponESPLabels[weapon] then
-			if weaponESPLabels[weapon].billboard then
-				weaponESPLabels[weapon].billboard:Destroy()
-			end
-			if weaponESPLabels[weapon].highlight then
-				weaponESPLabels[weapon].highlight:Destroy()
-			end
-			weaponESPLabels[weapon] = nil
-			print("🔴 ESP removido da arma: " .. weapon.Name)
-		end
-	end
-	
-	-- Função para escanear armas no workspace
-	local function scanForWeapons()
-		for _, object in pairs(Workspace:GetDescendants()) do
-			if object:IsA("Model") or object:IsA("Tool") then
-				local isWeapon, weaponType = isDroppedWeapon(object)
-				if isWeapon and not weaponESPLabels[object] then
-					createWeaponESP(object, weaponType)
-				end
-			end
-		end
-	end
-	
-	-- Função para ativar ESP de armas
-	local function enableWeaponESP()
-		weaponESPEnabled = true
-	
-		-- Scan inicial
-		scanForWeapons()
-	
-		-- Conexão para scan contínuo
-		weaponESPConnections.scanLoop = RunService.Heartbeat:Connect(function()
-			-- Remove ESPs de armas que não existem mais ou foram pegas
-			for weapon, espData in pairs(weaponESPLabels) do
-				if not weapon.Parent or weapon.Parent == nil then
-					removeWeaponESP(weapon)
-				else
-					-- Verifica se a arma ainda está dropada
-					local isWeapon, _ = isDroppedWeapon(weapon)
-					if not isWeapon then
-						removeWeaponESP(weapon)
-					end
-				end
-			end
-	
-			-- Scan por novas armas (a cada 2 segundos para performance)
-			if tick() % 2 < 0.1 then
-				scanForWeapons()
-			end
-		end)
-	
-		-- Conexão para novos objetos adicionados
-		weaponESPConnections.childAdded = Workspace.DescendantAdded:Connect(function(object)
-			if weaponESPEnabled then
-				wait(0.1) -- Pequeno delay para garantir que o objeto carregou
-				if object:IsA("Model") or object:IsA("Tool") then
-					local isWeapon, weaponType = isDroppedWeapon(object)
-					if isWeapon then
-						createWeaponESP(object, weaponType)
-					end
-				end
-			end
-		end)
-	
-		print("🟢 ESP de Armas Dropadas ATIVADO!")
-	end
-	
-	-- Função para desativar ESP de armas
-	local function disableWeaponESP()
-		weaponESPEnabled = false
-	
-		-- Remover todos os ESPs
-		for weapon, espData in pairs(weaponESPLabels) do
-			removeWeaponESP(weapon)
-		end
-		weaponESPLabels = {}
-	
-		-- Desconectar eventos
-		for _, connection in pairs(weaponESPConnections) do
-			connection:Disconnect()
-		end
-		weaponESPConnections = {}
-	
-		print("🔴 ESP de Armas Dropadas DESATIVADO!")
-	end
-	
-	-- Função principal do botão
-	local function toggleWeaponESP()
-		if weaponESPEnabled then
-			disableWeaponESP()
-		else
-			enableWeaponESP()
-		end
-	end
-	
-	-- Conectar ao clique do botão
-	button.MouseButton1Click:Connect(function()
-		toggleWeaponESP()
-	end)
-	
-	print("✅ ESP de Armas Dropadas configurado! Clique no botão para ativar/desativar.")
-end
-coroutine.wrap(COHQAH_fake_script)()
-local function TBKQQZ_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
-
-	-- Script para botão que alterna cor ao clicar
-	-- Coloque este script como LocalScript dentro do botão (TextButton ou ImageButton)
-	
-	local button = script.Parent -- O botão onde o script está
-	local originalColor = button.BackgroundColor3 -- Salva a cor original
-	local isGreen = false -- Controla se está verde ou não
-	
-	-- Função que executa quando o botão é clicado
-	local function toggleColor()
-		if isGreen then
-			-- Se está verde, volta para a cor original
-			button.BackgroundColor3 = originalColor
-			isGreen = false
-			print("Botão voltou para cor original")
-		else
-			-- Se não está verde, fica verde
-			button.BackgroundColor3 = Color3.new(0, 1, 0) -- Verde puro
-			isGreen = true
-			print("Botão ficou verde")
-		end
-	end
-	
-	-- Conecta a função ao evento de clique
-	button.MouseButton1Click:Connect(toggleColor)
-end
-coroutine.wrap(TBKQQZ_fake_script)()
-local function DZQZST_fake_script() -- TextButton_3.tp-arma 
-	local script = Instance.new('LocalScript', TextButton_3)
-
-	-- Script de Teleport para Armas Dropadas - Murder Mystery 2
-	-- Coloque este script como LocalScript dentro do seu botão
-	
-	local button = script.Parent
-	local Players = game:GetService("Players")
-	local UserInputService = game:GetService("UserInputService")
-	local RunService = game:GetService("RunService")
-	local Workspace = game:GetService("Workspace")
-	
-	local player = Players.LocalPlayer
-	local weaponTPEnabled = false
-	local weaponConnections = {}
-	
-	-- Lista de nomes de armas do MM2
-	local weaponNames = {
-		"Gun", "Revolver", "Knife", "GunDrop", "KnifeDrop"
-	}
-	
-	-- Função para verificar se é uma arma dropada
-	local function isDroppedWeapon(object)
-		-- Verifica se o nome contém palavras de armas
-		for _, weaponName in pairs(weaponNames) do
-			if string.find(object.Name:lower(), weaponName:lower()) then
-				-- Verifica se não está no backpack ou equipado em um jogador
-				local isWithPlayer = false
-	
-				-- Verifica se está no backpack de algum jogador
-				for _, plr in pairs(Players:GetPlayers()) do
-					if plr.Backpack:FindFirstChild(object.Name) then
-						isWithPlayer = true
-						break
-					end
-					-- Verifica se está equipado no personagem
-					if plr.Character and plr.Character:FindFirstChild(object.Name) then
-						isWithPlayer = true
-						break
-					end
-				end
-	
-				-- Se não está com nenhum jogador, é uma arma dropada
-				if not isWithPlayer then
-					return true
-				end
-			end
-		end
 		return false
 	end
 	
-	-- Função para encontrar armas dropadas
+	-- Função para verificar se a arma está dropada (não com um jogador)
+	local function isWeaponDropped(weapon)
+		if not weapon or not weapon.Parent then return false end
+	
+		-- Verifica se a arma não está na mochila ou equipada em um jogador
+		local parent = weapon.Parent
+	
+		-- Se estiver em um personagem ou mochila de jogador, não está dropada
+		for _, player in pairs(Players:GetPlayers()) do
+			if player.Character == parent or player:FindFirstChild("Backpack") == parent then
+				return false
+			end
+		end
+	
+		-- Se chegou até aqui, a arma está dropada no workspace
+		return parent == Workspace or parent.Parent == Workspace
+	end
+	
+	-- Função para criar ESP visual
+	local function createESP(weapon)
+		if not weapon:FindFirstChild("Handle") then return nil end
+	
+		local handle = weapon:FindFirstChild("Handle")
+	
+		-- Cria o highlight (contorno)
+		local highlight = Instance.new("Highlight")
+		highlight.Name = "WeaponESP"
+		highlight.Adornee = handle
+		highlight.FillColor = Color3.fromRGB(255, 255, 0) -- Amarelo
+		highlight.OutlineColor = Color3.fromRGB(255, 215, 0) -- Amarelo mais escuro
+		highlight.FillTransparency = 0.5
+		highlight.OutlineTransparency = 0
+		highlight.Parent = handle
+	
+		-- Cria BillboardGui para mostrar nome e distância
+		local billboardGui = Instance.new("BillboardGui")
+		billboardGui.Name = "WeaponNameESP"
+		billboardGui.Adornee = handle
+		billboardGui.Size = UDim2.new(0, 200, 0, 50)
+		billboardGui.StudsOffset = Vector3.new(0, 2, 0)
+		billboardGui.AlwaysOnTop = true
+		billboardGui.Parent = handle
+	
+		-- Frame de fundo
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(1, 0, 1, 0)
+		frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		frame.BackgroundTransparency = 0.3
+		frame.BorderSizePixel = 0
+		frame.Parent = billboardGui
+	
+		-- Adiciona cantos arredondados
+		local corner = Instance.new("UICorner")
+		corner.CornerRadius = UDim.new(0, 5)
+		corner.Parent = frame
+	
+		-- Texto do nome da arma
+		local nameLabel = Instance.new("TextLabel")
+		nameLabel.Size = UDim2.new(1, 0, 0.6, 0)
+		nameLabel.Position = UDim2.new(0, 0, 0, 0)
+		nameLabel.BackgroundTransparency = 1
+		nameLabel.Text = weapon.Name
+		nameLabel.TextColor3 = Color3.fromRGB(255, 255, 0) -- Amarelo
+		nameLabel.TextScaled = true
+		nameLabel.Font = Enum.Font.GothamBold
+		nameLabel.Parent = frame
+	
+		-- Texto da distância
+		local distanceLabel = Instance.new("TextLabel")
+		distanceLabel.Size = UDim2.new(1, 0, 0.4, 0)
+		distanceLabel.Position = UDim2.new(0, 0, 0.6, 0)
+		distanceLabel.BackgroundTransparency = 1
+		distanceLabel.Text = "0m"
+		distanceLabel.TextColor3 = Color3.fromRGB(255, 255, 255) -- Branco
+		distanceLabel.TextScaled = true
+		distanceLabel.Font = Enum.Font.Gotham
+		distanceLabel.Parent = frame
+	
+		return {
+			weapon = weapon,
+			highlight = highlight,
+			billboard = billboardGui,
+			distanceLabel = distanceLabel,
+			handle = handle
+		}
+	end
+	
+	-- Função para atualizar distâncias
+	local function updateDistances()
+		if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
+			return
+		end
+	
+		local playerPosition = player.Character.HumanoidRootPart.Position
+	
+		for _, espData in pairs(espObjects) do
+			if espData.weapon and espData.weapon.Parent and espData.handle and espData.handle.Parent then
+				local distance = (espData.handle.Position - playerPosition).Magnitude
+				espData.distanceLabel.Text = math.floor(distance) .. "m"
+			end
+		end
+	end
+	
+	-- Função para encontrar todas as armas dropadas
 	local function findDroppedWeapons()
 		local droppedWeapons = {}
 	
-		for _, object in pairs(Workspace:GetDescendants()) do
-			if (object:IsA("Model") or object:IsA("Tool")) and isDroppedWeapon(object) then
-				local targetPart = object:FindFirstChild("Handle") or object.PrimaryPart or object:FindFirstChildOfClass("Part")
-				if targetPart then
-					table.insert(droppedWeapons, {
-						weapon = object,
-						part = targetPart,
-						position = targetPart.Position
-					})
-				end
+		-- Procura no Workspace
+		for _, obj in pairs(Workspace:GetDescendants()) do
+			if isWeapon(obj) and isWeaponDropped(obj) then
+				table.insert(droppedWeapons, obj)
 			end
 		end
 	
 		return droppedWeapons
 	end
 	
-	-- Função para encontrar a arma mais próxima
-	local function findClosestWeapon()
-		if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
-			return nil
+	-- Função para remover ESP de uma arma específica
+	local function removeESP(weapon)
+		for i, espData in pairs(espObjects) do
+			if espData.weapon == weapon then
+				if espData.highlight and espData.highlight.Parent then
+					espData.highlight:Destroy()
+				end
+				if espData.billboard and espData.billboard.Parent then
+					espData.billboard:Destroy()
+				end
+				table.remove(espObjects, i)
+				break
+			end
+		end
+	end
+	
+	-- Função para limpar todos os ESPs
+	local function clearAllESP()
+		for _, espData in pairs(espObjects) do
+			if espData.highlight and espData.highlight.Parent then
+				espData.highlight:Destroy()
+			end
+			if espData.billboard and espData.billboard.Parent then
+				espData.billboard:Destroy()
+			end
+		end
+		espObjects = {}
+	end
+	
+	-- Função para atualizar ESPs
+	local function updateESP()
+		if not espEnabled then return end
+	
+		-- Remove ESPs de armas que não existem mais ou foram pegas
+		for i = #espObjects, 1, -1 do
+			local espData = espObjects[i]
+			if not espData.weapon or not espData.weapon.Parent or not isWeaponDropped(espData.weapon) then
+				removeESP(espData.weapon)
+			end
 		end
 	
-		local playerPosition = player.Character.HumanoidRootPart.Position
+		-- Adiciona ESP para novas armas dropadas
 		local droppedWeapons = findDroppedWeapons()
-	
-		if #droppedWeapons == 0 then
-			return nil
-		end
-	
-		-- Encontrar a arma mais próxima
-		local closestWeapon = nil
-		local closestDistance = math.huge
-	
-		for _, weaponData in pairs(droppedWeapons) do
-			local distance = (playerPosition - weaponData.position).Magnitude
-			if distance < closestDistance then
-				closestDistance = distance
-				closestWeapon = weaponData
-			end
-		end
-	
-		return closestWeapon
-	end
-	
-	-- Função para teleportar para uma posição
-	local function teleportTo(position)
-		if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
-			print("❌ Personagem não encontrado!")
-			return false
-		end
-	
-		-- Teleporta um pouco acima da arma para não bugar
-		local teleportPosition = position + Vector3.new(0, 3, 0)
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(teleportPosition)
-	
-		return true
-	end
-	
-	-- Função para teleportar para arma mais próxima
-	local function teleportToClosestWeapon()
-		local weaponData = findClosestWeapon()
-	
-		if not weaponData then
-			print("❌ Nenhuma arma dropada encontrada!")
-			return
-		end
-	
-		local success = teleportTo(weaponData.position)
-		if success then
-			local weaponType = "Arma"
-			if string.find(weaponData.weapon.Name:lower(), "gun") or string.find(weaponData.weapon.Name:lower(), "revolver") then
-				weaponType = "Gun 🔫"
-			elseif string.find(weaponData.weapon.Name:lower(), "knife") then
-				weaponType = "Knife 🔪"
+		for _, weapon in pairs(droppedWeapons) do
+			-- Verifica se já tem ESP
+			local hasESP = false
+			for _, espData in pairs(espObjects) do
+				if espData.weapon == weapon then
+					hasESP = true
+					break
+				end
 			end
 	
-			print("✅ Teleportado para " .. weaponType .. "!")
-		end
-	end
-	
-	-- Função para lidar com cliques em armas
-	local function onWeaponClicked(weapon, targetPart)
-		if not weaponTPEnabled then
-			return
-		end
-	
-		if not isDroppedWeapon(weapon) then
-			print("❌ Esta arma não está dropada!")
-			return
-		end
-	
-		local success = teleportTo(targetPart.Position)
-		if success then
-			local weaponType = "Arma"
-			if string.find(weapon.Name:lower(), "gun") or string.find(weapon.Name:lower(), "revolver") then
-				weaponType = "Gun 🔫"
-			elseif string.find(weapon.Name:lower(), "knife") then
-				weaponType = "Knife 🔪"
-			end
-	
-			print("✅ Teleportado para " .. weaponType .. " (clique)!")
-		end
-	end
-	
-	-- Função para configurar cliques em armas
-	local function setupWeaponClicks()
-		for _, object in pairs(Workspace:GetDescendants()) do
-			if (object:IsA("Model") or object:IsA("Tool")) and isDroppedWeapon(object) then
-				local targetPart = object:FindFirstChild("Handle") or object.PrimaryPart or object:FindFirstChildOfClass("Part")
-				if targetPart and targetPart:IsA("BasePart") then
-					local clickDetector = targetPart:FindFirstChild("ClickDetector")
-					if not clickDetector then
-						clickDetector = Instance.new("ClickDetector")
-						clickDetector.Parent = targetPart
-						clickDetector.MaxActivationDistance = 50
-					end
-	
-					clickDetector.MouseClick:Connect(function()
-						onWeaponClicked(object, targetPart)
-					end)
+			-- Cria ESP se não tiver
+			if not hasESP then
+				local espData = createESP(weapon)
+				if espData then
+					table.insert(espObjects, espData)
+					print("ESP adicionado para: " .. weapon.Name)
 				end
 			end
 		end
+	
+		-- Atualiza distâncias
+		updateDistances()
 	end
 	
-	-- Função para ativar teleport de armas
-	local function enableWeaponTP()
-		weaponTPEnabled = true
+	-- Função para ativar ESP
+	local function enableESP()
+		if espEnabled then return end
 	
-		-- Configurar cliques iniciais
-		setupWeaponClicks()
+		espEnabled = true
+		print("ESP de armas dropadas ativado!")
 	
-		-- Conexão para tecla E (teleport para mais próxima)
-		weaponConnections.keyPress = UserInputService.InputBegan:Connect(function(input, gameProcessed)
-			if gameProcessed then return end
-	
-			if weaponTPEnabled and input.KeyCode == Enum.KeyCode.E then
-				teleportToClosestWeapon()
-			end
+		-- Atualização contínua
+		connection = RunService.Heartbeat:Connect(function()
+			updateESP()
 		end)
 	
-		-- Conexão para novas armas que aparecem
-		weaponConnections.childAdded = Workspace.DescendantAdded:Connect(function(object)
-			if weaponTPEnabled then
-				wait(0.1)
-				if (object:IsA("Model") or object:IsA("Tool")) and isDroppedWeapon(object) then
-					local targetPart = object:FindFirstChild("Handle") or object.PrimaryPart or object:FindFirstChildOfClass("Part")
-					if targetPart and targetPart:IsA("BasePart") then
-						local clickDetector = Instance.new("ClickDetector")
-						clickDetector.Parent = targetPart
-						clickDetector.MaxActivationDistance = 50
-	
-						clickDetector.MouseClick:Connect(function()
-							onWeaponClicked(object, targetPart)
-						end)
-					end
-				end
-			end
-		end)
-	
-		print("🟢 TELEPORT PARA ARMAS ATIVADO!")
-		print("💡 Pressione E para teleportar para a arma mais próxima")
-		print("💡 Ou clique diretamente na arma que quer")
+		-- Atualização inicial
+		updateESP()
 	end
 	
-	-- Função para desativar teleport de armas
-	local function disableWeaponTP()
-		weaponTPEnabled = false
+	-- Função para desativar ESP
+	local function disableESP()
+		if not espEnabled then return end
 	
-		-- Desconectar eventos
-		for _, connection in pairs(weaponConnections) do
+		espEnabled = false
+		print("ESP de armas dropadas desativado!")
+	
+		-- Para a atualização
+		if connection then
 			connection:Disconnect()
+			connection = nil
 		end
-		weaponConnections = {}
 	
-		print("🔴 TELEPORT PARA ARMAS DESATIVADO!")
+		-- Remove todos os ESPs
+		clearAllESP()
 	end
 	
-	-- Função principal do botão
-	local function toggleWeaponTP()
-		if weaponTPEnabled then
-			disableWeaponTP()
+	-- Função para alternar ESP
+	local function toggleESP()
+		if espEnabled then
+			disableESP()
 		else
-			enableWeaponTP()
+			enableESP()
 		end
 	end
 	
-	-- Conectar ao clique do botão
-	button.MouseButton1Click:Connect(function()
-		toggleWeaponTP()
+	-- Limpa ESPs quando o jogador sai
+	Players.PlayerRemoving:Connect(function(leavingPlayer)
+		if leavingPlayer == player then
+			clearAllESP()
+		end
 	end)
 	
-	print("✅ Teleport para Armas Dropadas configurado!")
-	print("🎯 Clique no botão para ativar/desativar")
+	print("Script ESP de armas dropadas carregado!")
+	print("Use toggleESP() para ligar/desligar")
+	print("Cor: Amarelo - Mostra apenas armas no chão")
+	
+	-- Retorna as funções para uso externo
+	return {
+		toggle = toggleESP,
+		enable = enableESP,
+		disable = disableESP,
+		isEnabled = function() return espEnabled end,
+		clear = clearAllESP
+	}
 end
-coroutine.wrap(DZQZST_fake_script)()
-local function ZVZMD_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(WIWR_fake_script)()
+local function IMDXQ_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	-- Script para botão que alterna cor ao clicar
+	-- Coloque este script como LocalScript dentro do botão (TextButton ou ImageButton)
+	
+	local button = script.Parent -- O botão onde o script está
+	local originalColor = button.BackgroundColor3 -- Salva a cor original
+	local isGreen = false -- Controla se está verde ou não
+	
+	-- Função que executa quando o botão é clicado
+	local function toggleColor()
+		if isGreen then
+			-- Se está verde, volta para a cor original
+			button.BackgroundColor3 = originalColor
+			isGreen = false
+			print("Botão voltou para cor original")
+		else
+			-- Se não está verde, fica verde
+			button.BackgroundColor3 = Color3.new(0, 1, 0) -- Verde puro
+			isGreen = true
+			print("Botão ficou verde")
+		end
+	end
+	
+	-- Conecta a função ao evento de clique
+	button.MouseButton1Click:Connect(toggleColor)
+end
+coroutine.wrap(IMDXQ_fake_script)()
+local function XOAMVPQ_fake_script() -- TextButton_3.tp-arma 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	-- Murder Mystery 2 - Teleporte para Último com Arma
+	-- Script para teleportar até o último jogador que segurou uma arma
+	
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local Workspace = game:GetService("Workspace")
+	
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local rootPart = character:WaitForChild("HumanoidRootPart")
+	
+	-- Variáveis de controle
+	local isTracking = false
+	local lastWeaponHolder = nil
+	local connection
+	local weaponConnections = {}
+	
+	-- Lista de nomes de armas comuns no MM2
+	local weaponNames = {
+		"Knife", "Gun", "Revolver", "Pistol", "Blade", "Sword", "Dagger",
+		"ClassicKnife", "ClassicGun", "Sheriff", "Murderer", "Weapon"
+	}
+	
+	-- Função para verificar se um item é uma arma
+	local function isWeapon(item)
+		if not item or not item:IsA("Tool") then return false end
+	
+		local itemName = item.Name:lower()
+	
+		-- Verifica pelos nomes comuns de armas
+		for _, weaponName in pairs(weaponNames) do
+			if itemName:find(weaponName:lower()) then
+				return true
+			end
+		end
+	
+		-- Verifica se tem características de arma (Handle, etc.)
+		if item:FindFirstChild("Handle") then
+			local handle = item:FindFirstChild("Handle")
+			-- Verifica se tem sons típicos de armas
+			if handle:FindFirstChildOfClass("Sound") then
+				return true
+			end
+		end
+	
+		return false
+	end
+	
+	-- Função para monitorar armas de um jogador específico
+	local function monitorPlayerWeapons(targetPlayer)
+		if not targetPlayer or not targetPlayer.Character then return end
+	
+		local character = targetPlayer.Character
+		local backpack = targetPlayer:FindFirstChild("Backpack")
+	
+		-- Monitora ferramentas no personagem
+		local function checkCharacterTools()
+			for _, item in pairs(character:GetChildren()) do
+				if isWeapon(item) then
+					lastWeaponHolder = targetPlayer
+					print(targetPlayer.Name .. " está segurando: " .. item.Name)
+				end
+			end
+		end
+	
+		-- Monitora ferramentas na mochila quando equipadas
+		local function onToolAdded(tool)
+			if isWeapon(tool) then
+				-- Monitora quando a ferramenta é equipada
+				tool.Equipped:Connect(function()
+					lastWeaponHolder = targetPlayer
+					print(targetPlayer.Name .. " equipou: " .. tool.Name)
+				end)
+			end
+		end
+	
+		-- Conecta aos eventos
+		if character then
+			character.ChildAdded:Connect(function(child)
+				if isWeapon(child) then
+					lastWeaponHolder = targetPlayer
+					print(targetPlayer.Name .. " pegou: " .. child.Name)
+				end
+			end)
+	
+			-- Verifica ferramentas já existentes
+			checkCharacterTools()
+		end
+	
+		if backpack then
+			backpack.ChildAdded:Connect(onToolAdded)
+	
+			-- Verifica ferramentas já existentes na mochila
+			for _, tool in pairs(backpack:GetChildren()) do
+				onToolAdded(tool)
+			end
+		end
+	end
+	
+	-- Função para teleportar até o último jogador com arma
+	local function teleportToWeaponHolder()
+		if not lastWeaponHolder or not lastWeaponHolder.Character then
+			print("Nenhum jogador com arma encontrado!")
+			return
+		end
+	
+		local targetCharacter = lastWeaponHolder.Character
+		local targetRootPart = targetCharacter:FindFirstChild("HumanoidRootPart")
+	
+		if not targetRootPart then
+			print("Não foi possível encontrar o jogador: " .. lastWeaponHolder.Name)
+			return
+		end
+	
+		-- Atualiza referência do nosso personagem
+		character = player.Character
+		if not character then return end
+		rootPart = character:FindFirstChild("HumanoidRootPart")
+		if not rootPart then return end
+	
+		-- Teleporta para uma posição próxima ao jogador
+		local offset = Vector3.new(
+			math.random(-5, 5), -- Posição aleatória ao redor
+			2, -- Ligeiramente acima
+			math.random(-5, 5)
+		)
+	
+		rootPart.CFrame = targetRootPart.CFrame + offset
+		print("Teleportado para: " .. lastWeaponHolder.Name)
+	end
+	
+	-- Função para iniciar o rastreamento
+	local function startTracking()
+		if isTracking then return end
+	
+		isTracking = true
+		lastWeaponHolder = nil
+		print("Iniciando rastreamento de armas...")
+	
+		-- Monitora todos os jogadores atuais
+		for _, targetPlayer in pairs(Players:GetPlayers()) do
+			if targetPlayer ~= player then
+				monitorPlayerWeapons(targetPlayer)
+			end
+		end
+	
+		-- Monitora novos jogadores que entram
+		weaponConnections.playerAdded = Players.PlayerAdded:Connect(function(newPlayer)
+			if isTracking and newPlayer ~= player then
+				-- Espera o personagem carregar
+				newPlayer.CharacterAdded:Connect(function()
+					wait(1) -- Pequena espera para garantir que tudo carregou
+					monitorPlayerWeapons(newPlayer)
+				end)
+			end
+		end)
+	
+		-- Monitora quando jogadores recriam personagens
+		weaponConnections.characterAdded = {}
+		for _, targetPlayer in pairs(Players:GetPlayers()) do
+			if targetPlayer ~= player then
+				weaponConnections.characterAdded[targetPlayer] = targetPlayer.CharacterAdded:Connect(function()
+					if isTracking then
+						wait(1)
+						monitorPlayerWeapons(targetPlayer)
+					end
+				end)
+			end
+		end
+	
+		-- Loop principal para teleporte contínuo (opcional)
+		connection = RunService.Heartbeat:Connect(function()
+			if isTracking and lastWeaponHolder then
+				-- Teleporta automaticamente a cada 2 segundos (ajuste conforme necessário)
+				-- Remova esta parte se quiser teleporte manual apenas
+				wait(2)
+				if isTracking then
+					teleportToWeaponHolder()
+				end
+			end
+		end)
+	end
+	
+	-- Função para parar o rastreamento
+	local function stopTracking()
+		if not isTracking then return end
+	
+		isTracking = false
+		lastWeaponHolder = nil
+		print("Parando rastreamento de armas...")
+	
+		-- Desconecta todos os eventos
+		if connection then
+			connection:Disconnect()
+			connection = nil
+		end
+	
+		for eventName, conn in pairs(weaponConnections) do
+			if typeof(conn) == "RBXScriptConnection" then
+				conn:Disconnect()
+			elseif typeof(conn) == "table" then
+				for _, subConn in pairs(conn) do
+					if typeof(subConn) == "RBXScriptConnection" then
+						subConn:Disconnect()
+					end
+				end
+			end
+		end
+	
+		weaponConnections = {}
+	end
+	
+	-- Função para alternar o rastreamento
+	local function toggleTracking()
+		if isTracking then
+			stopTracking()
+		else
+			startTracking()
+		end
+	end
+	
+	-- Função para teleporte manual
+	local function manualTeleport()
+		if lastWeaponHolder then
+			teleportToWeaponHolder()
+		else
+			print("Nenhum jogador com arma foi detectado ainda!")
+		end
+	end
+	
+	-- Reconecta quando o jogador spawna novamente
+	player.CharacterAdded:Connect(function(newCharacter)
+		character = newCharacter
+		rootPart = character:WaitForChild("HumanoidRootPart")
+	end)
+	
+	print("Script de rastreamento de armas carregado!")
+	print("Use toggleTracking() para ligar/desligar o rastreamento")
+	print("Use manualTeleport() para teleportar manualmente")
+	print("Último jogador com arma: " .. (lastWeaponHolder and lastWeaponHolder.Name or "Nenhum"))
+	
+	-- Retorna as funções para uso externo
+	return {
+		toggle = toggleTracking,
+		start = startTracking,
+		stop = stopTracking,
+		teleport = manualTeleport,
+		isActive = function() return isTracking end,
+		getLastHolder = function() return lastWeaponHolder end
+	}
+end
+coroutine.wrap(XOAMVPQ_fake_script)()
+local function GRKZL_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1070,8 +1140,8 @@ local function ZVZMD_fake_script() -- TextButton_4.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(ZVZMD_fake_script)()
-local function WCXGQBU_fake_script() -- TextButton_4.aimbot 
+coroutine.wrap(GRKZL_fake_script)()
+local function ZZZGAT_fake_script() -- TextButton_4.aimbot 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	-- Aimbot para Assassino - Murder Mystery 2
@@ -1306,8 +1376,8 @@ local function WCXGQBU_fake_script() -- TextButton_4.aimbot
 	print("⚙️ FOV: " .. FOV_SIZE .. " pixels")
 	print("⚙️ Suavidade: " .. SMOOTH_FACTOR)
 end
-coroutine.wrap(WCXGQBU_fake_script)()
-local function LSIB_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(ZZZGAT_fake_script)()
+local function HMKR_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1335,231 +1405,206 @@ local function LSIB_fake_script() -- TextButton_5.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(LSIB_fake_script)()
-local function IMBTUMQ_fake_script() -- TextButton_5.coletarmoedas 
+coroutine.wrap(HMKR_fake_script)()
+local function XLUJMEW_fake_script() -- TextButton_5.coletardoce 
 	local script = Instance.new('LocalScript', TextButton_5)
 
-	-- Script Coletor de Moedas Automático - Murder Mystery 2
-	-- Coloque este script como LocalScript dentro do seu botão
+	-- Murder Mystery 2 - Coletor de Doces
+	-- Script para coletar automaticamente todos os doces do mapa
 	
-	local button = script.Parent
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
 	local TweenService = game:GetService("TweenService")
 	local Workspace = game:GetService("Workspace")
 	
 	local player = Players.LocalPlayer
-	local coinCollectorEnabled = false
-	local collectorConnections = {}
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local rootPart = character:WaitForChild("HumanoidRootPart")
+	
+	-- Variáveis de controle
 	local isCollecting = false
-	local coinsCollected = 0
+	local connection
+	local currentTween
 	
-	-- Configurações
-	local COLLECTION_SPEED = 50 -- Velocidade de movimento para as moedas
-	local COLLECTION_DISTANCE = 100 -- Distância máxima para detectar moedas
-	local COLLECTION_DELAY = 0.1 -- Delay entre coletas (para não sobrecarregar)
+	-- Função para encontrar todos os doces no mapa
+	local function findCandies()
+		local candies = {}
 	
-	-- Função para encontrar todas as moedas no mapa
-	local function findCoins()
-		local coins = {}
-	
-		-- Procurar por moedas em diferentes locais possíveis
-		local searchPaths = {
-			Workspace:FindFirstChild("Debris"),
-			Workspace:FindFirstChild("Coins"),
-			Workspace:FindFirstChild("CoinContainer"),
-			Workspace
+		-- Procura por doces em diferentes locais possíveis
+		local possibleParents = {
+			Workspace,
+			Workspace:FindFirstChild("Normal"),
+			Workspace:FindFirstChild("Lobby"),
+			Workspace:FindFirstChild("Map")
 		}
 	
-		for _, searchPath in pairs(searchPaths) do
-			if searchPath then
-				for _, object in pairs(searchPath:GetDescendants()) do
-					-- Verificar se é uma moeda (diferentes nomes possíveis)
-					if object.Name:lower():find("coin") or 
-						object.Name:lower():find("cash") or
-						object.Name:lower():find("money") or
-						(object:IsA("Part") and object.BrickColor.Name == "Bright yellow") or
-						(object:IsA("MeshPart") and object.MeshId:find("coin")) then
-	
-						-- Verificar se tem as propriedades de uma moeda
-						if object:IsA("BasePart") and object.CanCollide == false then
-							table.insert(coins, object)
+		for _, parent in pairs(possibleParents) do
+			if parent then
+				-- Procura por objetos que podem ser doces
+				for _, obj in pairs(parent:GetDescendants()) do
+					if obj:IsA("Part") or obj:IsA("MeshPart") then
+						-- Verifica se é um doce pelos nomes comuns
+						local name = obj.Name:lower()
+						if name:find("candy") or name:find("coin") or name:find("collectible") or 
+							name:find("pickup") or obj:FindFirstChild("ClickDetector") then
+							-- Verifica se tem ClickDetector (indicativo de item coletável)
+							if obj:FindFirstChild("ClickDetector") then
+								table.insert(candies, obj)
+							end
 						end
 					end
 				end
 			end
 		end
 	
-		-- Busca alternativa por objetos amarelos pequenos (moedas típicas)
-		for _, object in pairs(Workspace:GetDescendants()) do
-			if object:IsA("BasePart") and 
-				object.Size.X < 5 and object.Size.Y < 5 and object.Size.Z < 5 and
-				(object.BrickColor.Name == "Bright yellow" or 
-					object.BrickColor.Name == "New Yeller" or
-					object.Color == Color3.new(1, 1, 0)) and
-				object.CanCollide == false then
-	
-				-- Evitar duplicatas
-				local isDuplicate = false
-				for _, coin in pairs(coins) do
-					if coin == object then
-						isDuplicate = true
-						break
-					end
-				end
-	
-				if not isDuplicate then
-					table.insert(coins, object)
-				end
-			end
-		end
-	
-		return coins
+		return candies
 	end
 	
-	-- Função para calcular distância até uma moeda
-	local function getDistanceToCoin(coin)
-		if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
-			return math.huge
-		end
-	
-		local playerPosition = player.Character.HumanoidRootPart.Position
-		local coinPosition = coin.Position
-	
-		return (playerPosition - coinPosition).Magnitude
-	end
-	
-	-- Função para encontrar a moeda mais próxima
-	local function findClosestCoin()
-		local coins = findCoins()
-		local closestCoin = nil
-		local closestDistance = math.huge
-	
-		for _, coin in pairs(coins) do
-			if coin.Parent then -- Verificar se ainda existe
-				local distance = getDistanceToCoin(coin)
-				if distance < COLLECTION_DISTANCE and distance < closestDistance then
-					closestDistance = distance
-					closestCoin = coin
-				end
-			end
-		end
-	
-		return closestCoin, closestDistance
-	end
-	
-	-- Função para teleportar para uma moeda
-	local function teleportToCoin(coin)
-		if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
+	-- Função para mover o jogador até um doce
+	local function moveToCandy(candy)
+		if not candy or not candy.Parent then
 			return false
 		end
 	
-		if not coin or not coin.Parent then
-			return false
+		local targetPosition = candy.Position
+		local currentPosition = rootPart.Position
+	
+		-- Calcula a distância
+		local distance = (targetPosition - currentPosition).Magnitude
+	
+		-- Se já está perto o suficiente, coleta diretamente
+		if distance < 5 then
+			local clickDetector = candy:FindFirstChild("ClickDetector")
+			if clickDetector then
+				fireclickdetector(clickDetector)
+			end
+			return true
 		end
 	
-		-- Teleportar para a posição da moeda
-		local coinPosition = coin.Position
-		local teleportPosition = coinPosition + Vector3.new(0, 2, 0) -- Um pouco acima para não bugar
+		-- Move o jogador até o doce usando Tween
+		local tweenInfo = TweenInfo.new(
+			distance / 50, -- Velocidade baseada na distância
+			Enum.EasingStyle.Linear,
+			Enum.EasingDirection.InOut,
+			0,
+			false,
+			0
+		)
 	
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(teleportPosition)
+		currentTween = TweenService:Create(
+			rootPart,
+			tweenInfo,
+			{Position = targetPosition + Vector3.new(0, 2, 0)} -- Slight offset acima do doce
+		)
+	
+		currentTween:Play()
+	
+		-- Espera o tween terminar
+		currentTween.Completed:Wait()
+	
+		-- Tenta coletar o doce
+		wait(0.1)
+		local clickDetector = candy:FindFirstChild("ClickDetector")
+		if clickDetector and candy.Parent then
+			fireclickdetector(clickDetector)
+		end
 	
 		return true
 	end
 	
 	-- Função principal de coleta
-	local function collectCoins()
-		if not coinCollectorEnabled or isCollecting then
-			return
+	local function collectAllCandies()
+		if not isCollecting then return end
+	
+		-- Atualiza referências do personagem
+		character = player.Character
+		if not character then return end
+	
+		humanoid = character:FindFirstChild("Humanoid")
+		rootPart = character:FindFirstChild("HumanoidRootPart")
+	
+		if not humanoid or not rootPart then return end
+	
+		-- Encontra todos os doces
+		local candies = findCandies()
+	
+		print("Encontrados " .. #candies .. " doces no mapa!")
+	
+		-- Coleta cada doce
+		for i, candy in pairs(candies) do
+			if not isCollecting then break end
+	
+			if candy and candy.Parent then
+				print("Coletando doce " .. i .. "/" .. #candies)
+				moveToCandy(candy)
+				wait(0.5) -- Pequena pausa entre coletas
+			end
 		end
+	
+		if isCollecting then
+			print("Coleta de doces concluída!")
+		end
+	end
+	
+	-- Função para iniciar a coleta
+	function startCollecting()
+		if isCollecting then return end
 	
 		isCollecting = true
+		print("Iniciando coleta de doces...")
 	
-		-- Encontrar moeda mais próxima
-		local closestCoin, distance = findClosestCoin()
-	
-		if closestCoin then
-			-- Teleportar para a moeda
-			local success = teleportToCoin(closestCoin)
-	
-			if success then
-				coinsCollected = coinsCollected + 1
-				print("💰 Coletando moeda " .. coinsCollected .. " - Distância: " .. math.floor(distance) .. " studs")
-	
-				-- Pequeno delay para garantir que a moeda seja coletada
-				wait(COLLECTION_DELAY)
-	
-				-- Verificar se a moeda ainda existe (foi coletada)
-				if not closestCoin.Parent then
-					print("✅ Moeda coletada com sucesso!")
-				end
-			else
-				print("❌ Falha ao teleportar para moeda")
-			end
-		else
-			print("🔍 Nenhuma moeda encontrada no raio de " .. COLLECTION_DISTANCE .. " studs")
-		end
-	
-		isCollecting = false
-	end
-	
-	-- Função para ativar coletor de moedas
-	local function enableCoinCollector()
-		coinCollectorEnabled = true
-		coinsCollected = 0
-	
-		-- Conexão principal do coletor
-		collectorConnections.collectLoop = RunService.Heartbeat:Connect(function()
-			if coinCollectorEnabled and not isCollecting then
-				collectCoins()
-			end
+		-- Inicia a coleta em uma corrotina
+		spawn(function()
+			collectAllCandies()
 		end)
-	
-		-- Mostrar quantas moedas foram encontradas inicialmente
-		local initialCoins = findCoins()
-		print("🟢 COLETOR DE MOEDAS ATIVADO!")
-		print("💰 Moedas detectadas no mapa: " .. #initialCoins)
-		print("🎯 Raio de coleta: " .. COLLECTION_DISTANCE .. " studs")
 	end
 	
-	-- Função para desativar coletor de moedas
-	local function disableCoinCollector()
-		coinCollectorEnabled = false
+	-- Função para parar a coleta
+	function stopCollecting()
+		if not isCollecting then return end
+	
 		isCollecting = false
+		print("Parando coleta de doces...")
 	
-		-- Desconectar todas as conexões
-		for _, connection in pairs(collectorConnections) do
-			connection:Disconnect()
+		-- Para o tween atual se existir
+		if currentTween then
+			currentTween:Cancel()
+			currentTween = nil
 		end
-		collectorConnections = {}
-	
-		print("🔴 COLETOR DE MOEDAS DESATIVADO!")
-		print("📊 Total de moedas coletadas: " .. coinsCollected)
 	end
 	
-	-- Função principal do botão
-	local function toggleCoinCollector()
-		if coinCollectorEnabled then
-			disableCoinCollector()
+	-- Função para alternar entre ligar/desligar
+	function toggleCollecting()
+		if isCollecting then
+			stopCollecting()
 		else
-			enableCoinCollector()
+			startCollecting()
 		end
 	end
 	
-	-- Conectar ao clique do botão
-	button.MouseButton1Click:Connect(function()
-		toggleCoinCollector()
+	-- Reconecta quando o jogador spawna novamente
+	player.CharacterAdded:Connect(function(newCharacter)
+		character = newCharacter
+		humanoid = character:WaitForChild("Humanoid")
+		rootPart = character:WaitForChild("HumanoidRootPart")
 	end)
 	
-	print("✅ Coletor de Moedas Automático configurado!")
-	print("💰 Clique no botão para iniciar/parar a coleta")
-	print("⚙️ Configurações:")
-	print("   - Velocidade: " .. COLLECTION_SPEED)
-	print("   - Raio: " .. COLLECTION_DISTANCE .. " studs")
-	print("   - Delay: " .. COLLECTION_DELAY .. "s")
+	print("Script de coleta de doces carregado!")
+	print("Use toggleCollecting() para ligar/desligar")
+	print("Use startCollecting() para iniciar")
+	print("Use stopCollecting() para parar")
+	
+	-- Retorna as funções para uso externo
+	return {
+		toggle = toggleCollecting,
+		start = startCollecting,
+		stop = stopCollecting,
+		isActive = function() return isCollecting end
+	}
 end
-coroutine.wrap(IMBTUMQ_fake_script)()
-local function MIAFJS_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(XLUJMEW_fake_script)()
+local function VLTVZB_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1587,8 +1632,8 @@ local function MIAFJS_fake_script() -- TextButton_6.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(MIAFJS_fake_script)()
-local function EMPLWU_fake_script() -- TextButton_6.noclip 
+coroutine.wrap(VLTVZB_fake_script)()
+local function UVKTLMS_fake_script() -- TextButton_6.noclip 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	-- Serviços
@@ -1632,8 +1677,8 @@ local function EMPLWU_fake_script() -- TextButton_6.noclip
 	script.Parent.MouseButton1Click:Connect(toggleNoclip)
 	
 end
-coroutine.wrap(EMPLWU_fake_script)()
-local function FFPPQS_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(UVKTLMS_fake_script)()
+local function UWMPYFV_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	-- Script para botão que alterna cor ao clicar
@@ -1661,8 +1706,8 @@ local function FFPPQS_fake_script() -- TextButton_7.LocalScript
 	-- Conecta a função ao evento de clique
 	button.MouseButton1Click:Connect(toggleColor)
 end
-coroutine.wrap(FFPPQS_fake_script)()
-local function GRTKY_fake_script() -- TextButton_7.fly 
+coroutine.wrap(UWMPYFV_fake_script)()
+local function NGIN_fake_script() -- TextButton_7.fly 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	-- Serviços
@@ -1755,8 +1800,8 @@ local function GRTKY_fake_script() -- TextButton_7.fly
 	script.Parent.MouseButton1Click:Connect(toggleFly)
 	
 end
-coroutine.wrap(GRTKY_fake_script)()
-local function MONB_fake_script() -- Frame.LocalScript 
+coroutine.wrap(NGIN_fake_script)()
+local function ZQKRPOY_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	-- Script de Monitoramento para seu Frame existente
@@ -1927,8 +1972,8 @@ local function MONB_fake_script() -- Frame.LocalScript
 	
 	print("✅ Monitor do servidor iniciado no seu frame!")
 end
-coroutine.wrap(MONB_fake_script)()
-local function ESIQB_fake_script() -- gatunohub.LocalScript 
+coroutine.wrap(ZQKRPOY_fake_script)()
+local function JZXJCKW_fake_script() -- gatunohub.LocalScript 
 	local script = Instance.new('LocalScript', gatunohub)
 
 	local UIS = game:GetService("UserInputService")
@@ -1972,8 +2017,8 @@ local function ESIQB_fake_script() -- gatunohub.LocalScript
 	end)
 	
 end
-coroutine.wrap(ESIQB_fake_script)()
-local function KXOYQ_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(JZXJCKW_fake_script)()
+local function MGHK_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	-- Script para ImageButton controlar um Frame existente
@@ -2021,8 +2066,8 @@ local function KXOYQ_fake_script() -- ImageButton.LocalScript
 	
 	print("✅ ImageButton configurado para controlar frame existente!")
 end
-coroutine.wrap(KXOYQ_fake_script)()
-local function FSVXL_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(MGHK_fake_script)()
+local function HITZEVU_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local UIS = game:GetService("UserInputService")
@@ -2066,4 +2111,4 @@ local function FSVXL_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(FSVXL_fake_script)()
+coroutine.wrap(HITZEVU_fake_script)()
